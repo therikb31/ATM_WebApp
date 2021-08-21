@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+
+<body>
+    <form action="#" method="POST">
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="middleName">Middle Name:</label>
+        <input type="text" id="middleName" name="middleName"> <br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="0" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="1" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="2" required>
+        <label for="other">Other</label> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br>
+
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" name="dateOfBirth" id="dateOfBirth" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" required><br>
+
+        <label for="occupation">Occupation:</label>
+        <select name="occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+            <option value="unemployed">Unemployed</option><br>
+        </select><br>
+
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

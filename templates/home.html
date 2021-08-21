@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>Choose</h1>
-    <label for="login">login</label>
-    <input type="button" name="login" id="login" placeholder="login"><br>
-    <script type="text/javascript">
-        document.getElementById("login").onclick = function () {
-            location.href = "login.html";
-        };
-    </script>
-    <label for="create">create</label>
-    <input type="button" name="create" id="create" placeholder="create"><br>
+    <form action="login">
+        <label for="login">login</label>
+        <input type="submit" name="login" id="login" placeholder="login"><br>
+        
+    </form>
+    <form action="create">
+        <label for="create">create</label>
+        <input type="submit" name="create" id="create" placeholder="create"><br>
+    </form>
 </body>
 </html>
