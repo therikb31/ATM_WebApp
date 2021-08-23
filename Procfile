@@ -1,1 +1,0 @@
-gunicorn: webapp app:app
