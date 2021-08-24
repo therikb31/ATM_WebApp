@@ -14,16 +14,24 @@
         <div class="heading">
             <h1>Welcome to Bank of TINT</h1>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-
         <div class="row">
             <div class="column-left">
-                <h1>Login</h1>
+                <h1 onclick="callLogin()">Login</h1>
             </div>
             <div class="column-right">
-                <h1>Create</h1>
+                <h1 onclick="callCreate()">Create</h1>
             </div>
         </div>
     </div>
 </body>
+<script>
+    function callLogin() {
+        window.location.href = "login.html";
+    }
+
+    function callCreate() {
+        window.location.href = "createAccount.html";
+    }
+</script>
 
 </html>
