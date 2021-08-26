@@ -21,15 +21,15 @@
         <input type="text" id="lastName" name="lastName" required><br>
 
         <label for="gender">Gender:</label>
-        <input type="radio" name="gender" id="male" value="0" required>
+        <input type="radio" name="gender" id="male" value="Male" required>
         <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="1" required>
+        <input type="radio" name="gender" id="female" value="Female" required>
         <label for="female">Female</label>
-        <input type="radio" name="gender" id="other" value="2" required>
+        <input type="radio" name="gender" id="other" value="Other" required>
         <label for="other">Other</label> <br>
 
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email"><br>
+        <input type="text" name="email" id="email"><br>
 
         <label for="address">Address:</label>
         <input type="text" id="address" name="address" required><br>
@@ -38,7 +38,7 @@
         <input type="date" name="dateOfBirth" id="dateOfBirth" required><br>
 
         <label for="phone">Phone Number:</label>
-        <input type="tel" name="phone" id="phone" required><br>
+        <input type="number" name="phone" id="phone" required><br>
 
         <label for="occupation">Occupation:</label>
         <select name="occupation" id="occupation">
@@ -48,9 +48,10 @@
             <option value="unemployed">Unemployed</option><br>
         </select><br>
 
-        <input type="submit">
+        <input type="submit" onclick="myFunction()">
     </form>
 
 </body>
+
 
 </html>

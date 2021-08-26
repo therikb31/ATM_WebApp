@@ -1,19 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/menu.css">
     <title>Login</title>
-    <link rel="stylesheet" href="/static/style.css">
 </head>
 
-<body>
-    <div class="main">
-        <form class="form" action="#" method="POST">
-            <input type="text" class="input" placeholder="Account Number" id="accountNumber">
-            <input type="password" class="input" placeholder="PIN" id="pin">
-            <input type="submit">
+<body class="main">
+    <div class="form">
+        <form>
+            <div class="heading">
+                <h1 style="color:black;font-family:helvetical;font-size:20px;">LOGIN</h1>
+            </div>
+            <div class="formcontent">
+                <label for="text">Account Number</label><br>
+                <input type="text" id="text" class="AccountNo"><br><br>
+                <label for="password">Pin</label><br>
+                <input type="password" id="password" class="Pin"><br><br>
+                <input type="submit" class="button">
+                <input type="reset" class="button">
+            </div>
+
         </form>
     </div>
-    </div>
+</body>
+
+</html>
+
 </body>
 
 </html>
