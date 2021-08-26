@@ -12,6 +12,7 @@
     box-shadow: 0px 4px 10px 4px #00000040;
     margin: auto;
     border-radius: 10px;
+    padding: 2px;
 }
 
 .box {
@@ -30,7 +31,7 @@
 
 .column-left {
     float: left;
-    width: 45%;
+    width: 30%;
     margin-left: 1rem;
 }
 
@@ -158,4 +159,18 @@ label {
     width: 30%;
     margin-top: 6px;
     margin: auto;
+}
+
+.left-col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    text-align: left;
+}
+
+.right-col-50 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    text-align: right;
 }
