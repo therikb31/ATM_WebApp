@@ -9,7 +9,6 @@
     width: 800px;
     height: 500px;
     background-color: #CDF0EA;
-    flex-direction: column;
     box-shadow: 0px 4px 10px 4px #00000040;
     margin: auto;
     border-radius: 10px;
@@ -25,6 +24,8 @@
 
 .heading {
     text-align: center;
+    margin-top: 5%;
+    padding-top: 5%;
 }
 
 .column-left {
@@ -103,16 +104,6 @@ label {
 
 /* Style the submit button */
 
-input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
-
 
 /* Style the container */
 
@@ -159,4 +150,14 @@ input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
+}
+
+.input {
+    width: 30px;
+}
+
+.col-30 {
+    width: 30%;
+    margin-top: 6px;
+    margin: auto;
 }
