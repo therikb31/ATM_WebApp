@@ -11,12 +11,12 @@ import random
 app = Flask(__name__)
 app.secret_key = "abc" 
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '1011'
-app.config['MYSQL_DB'] = 'Test'
+app.config['MYSQL_HOST'] = 'remotemysql.com'
+app.config['MYSQL_USER'] = 'HY7fMPc3YD'
+app.config['MYSQL_PASSWORD'] = 'CkAOufafJj'
+app.config['MYSQL_DB'] = 'HY7fMPc3YD'
 app.config['MAIL_SERVER']='smtp.gmail.com'
-app.config['MAIL_PORT'] = 465
+app.config['MAIL_PORT'] = 3306
 app.config['MAIL_USERNAME'] = 'johnsmitcool@gmail.com'
 app.config['MAIL_PASSWORD'] = 'tintit2020'
 app.config['MAIL_USE_TLS'] = False
