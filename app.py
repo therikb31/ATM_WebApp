@@ -55,7 +55,7 @@ def createAccount():
         ran = ''.join(random.choices(string.digits, k = 4))    
 
         cursor = mysql.connection.cursor()
-        sql = " INSERT INTO Accounts(First_Name,Middle_Name,Last_Name,Gender,Email,Address,Date_Of_Birth,Phone,Occupation,Pin,Is_OnBoarded) VALUES ('{}','{}','{}','{}','{}','{}','{}','{}','{}',{},{})".format(firstName,middleName,lastName,gender,email,address,dateOfBirth,phone,occupation,ran,0)
+        sql = " INSERT INTO Accounts(First_Name,Middle_Name,Last_Name,Gender,Email,Address,Date_Of_Birth,Phone,Occupation,Pin,Is_OnBoarded) VALUES ('{}','{}','{}','{}','{}','{}','{}','{}','{}','{}',{})".format(firstName,middleName,lastName,gender,email,address,dateOfBirth,phone,occupation,ran,0)
         cursor.execute(sql)
         mysql.connection.commit()
         if(cursor.rowcount > 0):
